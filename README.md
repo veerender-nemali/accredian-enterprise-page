@@ -134,28 +134,4 @@ AI was used as a development assistant, not as a substitute for implementation a
 8. Optimize image assets with responsive AVIF/WebP variants.
 9. Add richer motion using Framer Motion only where it improves comprehension.
 
-## Deployment
-
-This project is structured for Vercel.
-
-```bash
-npm install
-npm run build
-```
-
-Then import the GitHub repository into Vercel and deploy with the default Next.js settings.
-
-## Final QA checklist
-
-Before submitting:
-
-```bash
-npm install
-npm run typecheck
-npm run build
-npm start
-```
-
-Manually check 375px, 390px, 768px, 1024px and 1280px+ widths, keyboard focus states, mobile navigation, FAQ, testimonials, segmentation tabs and enquiry form states.
-
 The implementation intentionally uses an original component system rather than copying the reference site's source code or unlicensed image assets.
