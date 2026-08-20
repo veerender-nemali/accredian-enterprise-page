@@ -1,0 +1,1 @@
+export default function Loading() { return <div className="grid min-h-screen place-items-center bg-paper"><div className="text-center"><div className="mx-auto grid size-14 animate-pulse place-items-center rounded-2xl bg-violet text-lime font-display text-2xl font-bold">A</div><p className="mt-4 text-sm font-semibold text-muted">Loading enterprise experience…</p></div></div>; }
